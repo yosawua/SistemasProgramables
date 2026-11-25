@@ -1,5 +1,36 @@
+# Archivos de entorno y secretos
 .env
+*.env
 firmware/include/secrets.h
+secrets.h
+
+# PlatformIO
 .pio/
+firmware/.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python y Entornos Virtuales
 .venv/
+venv/
+ENV/
+env/
 __pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Audio generado (evitar saturar el repositorio con binarios de audio pesados)
+audio/*.mp3
+!audio/README.md
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
